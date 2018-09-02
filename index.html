@@ -3,12 +3,95 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" href="./fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">    
 </head>
 <body>
-    <h1>hello world</h1>
+    <div class="container">
+        <div class="fleft">
+            <div class="photo">
+                <img src="./img/photo.jpg" alt="photo">
+                <h2>季晨瑞</h2>
+            </div>
+            <div class="infor">
+                <h3><i class="fa fa-id-card"></i> 个人信息</h3>
+                <ul>
+                    <li><span class="item">最高学历：</span>硕士</li>
+                    <li><span class="item">性别：</span>男</li>
+                    <li><span class="item">年龄：</span>24岁</li>
+                    <li><span class="item">毕业学校：</span>东北大学</li>
+                    <li><span class="item">居住地：</span>杭州</li>
+                    <li><span class="item">电话：</span>13322466923</li>
+                    <li><span class="item">E-mail：</span>13322466923@163.com</li>
+                </ul>
+            </div>
+            <div class="infor">
+                <h3><i class="fa fa-tag"></i> 求值意向</h3>
+                <ul>
+                    <li><span class="item">入职时间：</span>2019年1月之后</li>
+                    <li><span class="item">希望行业：</span>移动互联网</li>
+                    <li><span class="item">目标岗位：</span><span class="important">前端开发</span></li>
+                    <li><span class="item">目标地点：</span>杭州/上海</li>
+                    <li><span class="item">期望月薪：</span>能学到东西的话够活就行</li>
+                </ul>
+            </div>
+            <div class="infor">
+                <h3><i class="fa fa-volume-up"></i> 英语能力</h3>
+                <ul>
+                    <li><span class="item">听：</span>看美剧不开字幕看懂大半</li>
+                    <li><span class="item">说：</span>简单交流</li>
+                    <li><span class="item">读：</span>轻松读懂各种框架工具英文文档</li>
+                </ul>
+            </div>
+        </div>
+        <div class="fright">
+            <div class="detail">
+                <h3><i class="fa fa-graduation-cap"></i> 教育背景</h3>
+                <dl>
+                    <dt>本科</dt>
+                    <dd><span class="item">学校：</span>东北大学</dd>
+                    <dd><span class="item">时间：</span>2012年9月 - 2016年7月</dd>
+                    <dd><span class="item">专业：</span>应用化学</dd>
+                    <dt>研究生</dt>
+                    <dd><span class="item">学校：</span>东北大学</dd>
+                    <dd><span class="item">时间：</span>2016年9月 - 2019年1月</dd>
+                    <dd><span class="item">专业：</span>物理化学</dd>
+                </dl>
+            </div>
+            <div class="detail">
+                <h3><i class="fa fa-info-circle"></i> 自我介绍</h3>
+                <p>虽然专业是化学但对互联网前端十分感兴趣，2018年4月开始自学前端。有较强的自学能力，特别是对于感兴趣的事物，会花时间和精力钻研，并且进步较快。有较强的好奇心，喜欢新技术，并且乐于学习和探索新技术。</p>
+            </div>
+            <div class="detail">
+                <h3><i class="fa fa-thumbs-up"></i> 掌握技能</h3>
+                <ul>
+                    <li><span class="item">HTML：</span>熟悉了解各种标签，属性，以及语义化标签</li>
+                    <li><span class="item">css：</span>熟悉各种css属性，能熟练的完成页面的布局以及排版</li>
+                    <li><span class="item">JavaScript：</span>了解js各种特性(闭包，柯里化等)，熟悉ES6新语法，掌握各种DOM以及BOM接口</li>
+                    <li><span class="item">构建工具及框架：</span>熟练使用Vue全家桶，了解一些webpack基本的配置。</li>
+                    <li><span class="item">python：</span>了解基本语法及特性，能编写小型网络爬虫</li>
+                    <li><span class="item">c++：</span>了解基本语法，熟悉到能做oj题的程度</li>
+                    <li><span class="item">git：</span>熟练使用git的常用功能</li>
+                </ul>
+            </div>
+            <div class="detail">
+                <h3><i class="fa fa-wrench"></i> 学习前端过程中自己做的小项目</h3>
+                <ul>
+                    <li><span class="item">漫画网：</span>爬取了有妖气首页的漫画信息和缩略图，用vue做了一个首页，使用webpack打包</li>
+                    <li><span class="item">一个查单词的应用：</span>利用ajax向服务器请求单词信息，服务器调用了有道词典api，返回json数据。将查询过的单词存放在Local Storage里</li>
+                </ul>
+            </div>
+            <div class="detail">
+                <h3><i class="fa fa-certificate"></i> 证书</h3>
+                <ul>
+                    <li><span class="sfl">英语六级</span><span class="date">2015/12</span></li>
+                    <li><span class="sfl">PAT 乙级95分</span><span class="date">2018/4</span></li>
+                    <li><span class="sfl">PAT 甲级95分</span><span class="date">2018/9</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
