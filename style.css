@@ -80,3 +80,6 @@ dt,.item{
 .date{
     float: right;
 }
+a{
+    color: inherit;
+}
