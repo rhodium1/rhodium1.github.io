@@ -4,26 +4,28 @@
     box-sizing: border-box;
 }
 body{
-    width: 794px;
+    width: 900px;
     margin:auto;
     font-size: 16px;
     color: #919191;
     font-family: "Microsoft YaHei", sans-serif;
     background-color: #efefef;
-    height: 1123px;
+    /* height: 1123px; */
     display: flex;
     align-items: center;
 }
 .container{
     padding: 20px;
-    
+    display: flex;
+    align-items: stretch;
+    padding-top: 100px;
 }
 .fleft{
-    float: left;
-    width: 33.3%;
+    flex-basis: 20%;
     background-color: #2d4e5c;
     padding: 0 20px 25px;
-    height: 949px;
+    flex:0;
+    border-radius: 15px;
 }
 .photo{
     padding: 30px 50px;
@@ -31,6 +33,7 @@ body{
 }
 .photo img{
     width: 100%;
+    border-radius: 10px;
 }
 .photo h2{
     text-align: center;
@@ -59,9 +62,9 @@ li{
     color: #fae001;
 }
 .fright{
-    width: 66.7%;
-    float: right;
+    flex-basis: 80%;
     padding: 0 20px 20px;
+    flex:1;
 }
 .detail{
     margin-bottom: 20px;
